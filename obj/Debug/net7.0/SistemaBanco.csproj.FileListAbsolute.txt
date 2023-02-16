@@ -1,0 +1,15 @@
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\bin\Debug\net7.0\SistemaBanco.exe
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\bin\Debug\net7.0\SistemaBanco.deps.json
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\bin\Debug\net7.0\SistemaBanco.runtimeconfig.json
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\bin\Debug\net7.0\SistemaBanco.dll
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\bin\Debug\net7.0\SistemaBanco.pdb
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.csproj.AssemblyReference.cache
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.AssemblyInfoInputs.cache
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.AssemblyInfo.cs
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.csproj.CoreCompileInputs.cache
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.dll
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\refint\SistemaBanco.dll
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.pdb
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\SistemaBanco.genruntimeconfig.cache
+C:\Users\MARGARIDA\Desktop\FULLSTACK\Semana03\SistemaBanco\SistemaBanco\obj\Debug\net7.0\ref\SistemaBanco.dll
