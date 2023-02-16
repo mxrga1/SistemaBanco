@@ -14,9 +14,9 @@ do
 
     if (opcao == "1")
     {
-        Cliente novoCliente = CriarConta();
-        clientes.Add(novoCliente);
+        CriarConta();
     }
+
     if (opcao == "5")
     {
         ExibirClientes();
@@ -39,7 +39,7 @@ void ExibirClientes()
 }
 
 
-Cliente CriarConta()
+void CriarConta()
 {
 
     Cliente cliente = new Cliente();
@@ -47,14 +47,23 @@ Cliente CriarConta()
     Console.WriteLine("Nome do cliente:");
     cliente.Nome = Console.ReadLine();
 
+    Console.WriteLine("Data de Nascimento do cliente:");
+    cliente.DataNascimento = DateTime.Parse(Console.ReadLine());
+    if (!cliente.EhMaior())
+    {
+
+        Console.WriteLine("Não é possivel abrir a conta pois o Cliente é menor de idade");
+        return;
+    }
+
+
+    Console.WriteLine("A idade do cliente é " + cliente.Idade);
+
     Console.WriteLine("CPF do cliente:");
     cliente.CPF = Console.ReadLine();
 
     Console.WriteLine("Endereço do cliente:");
     cliente.Endereco = Console.ReadLine();
-
-    Console.WriteLine("Data de Nascimento do cliente:");
-    cliente.DataNascimento = DateTime.Parse(Console.ReadLine());
 
     Console.WriteLine("Telefone do cliente:");
     cliente.Telefone = Console.ReadLine();
@@ -65,6 +74,5 @@ Cliente CriarConta()
     Console.WriteLine("Numero da conta do cliente:");
     cliente.NumeroConta = int.Parse(Console.ReadLine());
 
-    return cliente;
-
+    clientes.Add(cliente);
 }
