@@ -1,5 +1,43 @@
 ﻿using SistemaBanco;
 
+List<Cliente> clientes = new List<Cliente>();
+string opcao;
+do
+{
+    Console.WriteLine("Bem vindos ao Banco FULL STACK BANK, escolha uma opção");
+    Console.WriteLine("1 - Criar Conta ");
+    Console.WriteLine("2 - Adicionar Transação");
+    Console.WriteLine("3 - Consultar Extrato");
+    Console.WriteLine("4 - Sair!");
+    Console.WriteLine("5 - Exibir Clientes");
+    opcao = Console.ReadLine();
+
+    if (opcao == "1")
+    {
+        Cliente novoCliente = CriarConta();
+        clientes.Add(novoCliente);
+    }
+    if (opcao == "5")
+    {
+        ExibirClientes();
+
+    }
+
+    Console.WriteLine("Tecle Enter para Continuar");
+    Console.ReadLine();
+} while (opcao != "4");
+
+
+void ExibirClientes()
+{
+    Console.WriteLine("Número da conta       | Nome            |  CPF");
+
+    for (int i = 0; i < clientes.Count; i++)
+    {
+        Console.WriteLine(clientes[i].ResumoCliente());
+    }
+}
+
 
 Cliente CriarConta()
 {
@@ -30,23 +68,3 @@ Cliente CriarConta()
     return cliente;
 
 }
-
-
-
-
-
-
-string opcao;
-do
-{
-    Console.WriteLine("Bem vindos ao Banco FULL STACK BANK, escolha uma opção");
-    Console.WriteLine("1 - Criar Conta ");
-    Console.WriteLine("2 - Adicionar Transação");
-    Console.WriteLine("3 - Consultar Extrato");
-    Console.WriteLine("4 - Sair!");
-    opcao = Console.ReadLine();
-
-    if(opcao == "1"){
-      Cliente novoCliente = CriarConta();
-    }
-} while (opcao != "3");
